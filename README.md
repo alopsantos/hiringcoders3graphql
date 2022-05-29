@@ -7,7 +7,8 @@
   - [x] server
   - [x] web
 
-`
+```
+
 pnpm init
 touch pnpm-workspaces.yaml
 pnpm i --filter @dev-demands/server
@@ -19,4 +20,5 @@ pnpm i --filter @dev-demands/web
 pnpm i react-router-dom --filter @dev-demands/web
 pnpm i express --filter @dev-demands/server
 
-`
+pnpm i cors --filter @dev-demands/server
+```
