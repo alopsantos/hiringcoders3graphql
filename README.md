@@ -21,4 +21,10 @@ pnpm i react-router-dom --filter @dev-demands/web
 pnpm i express --filter @dev-demands/server
 
 pnpm i cors --filter @dev-demands/server
+
+pnpm i apollo-server-express --filter @dev-demands/server
+pnpm i graphql --filter @dev-demands/server
+
+pnpm i -D nodemon --filter @dev-demands/server
+
 ```
